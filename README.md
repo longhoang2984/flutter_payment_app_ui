@@ -1,4 +1,4 @@
-# payment_app
+# Flutter Liquid Pay Payment App UI
 
 Flutter Liquid Pay Payment App Concept Designed by [Nihal Bora](https://dribbble.com/shots/4670011-Liquid-Pay-Payment-App-Concept)
 
