@@ -6,11 +6,11 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		NOsmChYSoeifZLmnIZP5uOmGzj8=
+		t54pAsWCLTaEmY9FotN77u3gvwY=
 		</data>
 		<key>icudtl.dat</key>
 		<data>
-		82N3qbojO6hFzAK4yA4Kk9EpQ2E=
+		cjDelfr3ugTDn3+r5icq6Ge1n4Q=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -19,17 +19,17 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			82N3qbojO6hFzAK4yA4Kk9EpQ2E=
+			cjDelfr3ugTDn3+r5icq6Ge1n4Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			bNijsyWg5ZK/arT17ELCbGqoJmJV3Qgl+l61SQoVtso=
+			INkC1JLiLe7AB9SqeZRmj6oaRlkPwCvM96J3pilvsnc=
 			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -60,24 +60,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -113,13 +101,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

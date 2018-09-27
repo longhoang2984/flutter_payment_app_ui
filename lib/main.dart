@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:payment_app/history/history_page.dart';
 import 'package:payment_app/home/homepage.dart';
 import 'package:payment_app/profile/profile_page.dart';
-import 'package:payment_app/send_money_flow/send_money_page.dart';
 import 'package:payment_app/settings/settings_page.dart';
 
 void main() => runApp(new MyApp());

@@ -1,9 +1,8 @@
 // This is a generated file; do not edit or check into version control.
-FLUTTER_ROOT=/Users/longhoang/Downloads/flutter
-FLUTTER_APPLICATION_PATH=/Users/longhoang/Documents/Project/payment_app
-FLUTTER_TARGET=/Users/longhoang/Documents/Project/payment_app/lib/main.dart
+FLUTTER_ROOT=/Users/hoangcuulong/Downloads/flutter 2
+FLUTTER_APPLICATION_PATH=/Users/hoangcuulong/Documents/GitHub/flutter_payment_app_ui
+FLUTTER_TARGET=/Users/hoangcuulong/Documents/GitHub/flutter_payment_app_ui/lib/main.dart
 FLUTTER_BUILD_MODE=debug
 FLUTTER_BUILD_DIR=build
 SYMROOT=${SOURCE_ROOT}/../build/ios
-FLUTTER_FRAMEWORK_DIR=/Users/longhoang/Downloads/flutter/bin/cache/artifacts/engine/ios
-PREVIEW_DART_2=true
+FLUTTER_FRAMEWORK_DIR=/Users/hoangcuulong/Downloads/flutter 2/bin/cache/artifacts/engine/ios
