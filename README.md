@@ -1,4 +1,7 @@
-# Flutter Liquid Pay Payment App UI
+# Flutter Liquid Pay Payment App UI 
+<a href="https://stackoverflow.com/questions/tagged/flutter?sort=votes">
+    <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" />
+</a>
 
 Flutter Liquid Pay Payment App Concept Designed by [Nihal Bora](https://dribbble.com/shots/4670011-Liquid-Pay-Payment-App-Concept)
 
