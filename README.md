@@ -14,3 +14,8 @@ Flutter Liquid Pay Payment App Concept Designed by [Nihal Bora](https://dribbble
 ![alt text](https://i0.wp.com/hoangcuulong.com/wp-content/uploads/2018/09/Screenshot_20180926-191211.jpg?w=200).
 ![alt text](https://i1.wp.com/hoangcuulong.com/wp-content/uploads/2018/09/Screenshot_20180926-191221.jpg?w=200).
 
+# Other Flutter repo
+### DDD Todo App
+[link](https://github.com/longhoang2984/ddd_todoapp)
+### Survey App
+[link](https://github.com/longhoang2984/flutter_survey_app)
