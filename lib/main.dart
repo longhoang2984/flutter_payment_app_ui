@@ -33,50 +33,34 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return new Scaffold(
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _curIndex,
+          currentIndex: _curIndex,
 //          iconSize: 22.0,
           onTap: (index) {
             _curIndex = index;
-            setState(() { });
+            setState(() {});
           },
           items: [
             BottomNavigationBarItem(
-              icon: Image.asset(_curIndex == 0 ? 'images/ico_home_selected.png' : 'images/ico_home.png'),
-              title: Text(
-                  'Home',
-                style: TextStyle(
-                  color: Colors.black
-                ),
-              ),
+              icon: Image.asset('images/ico_home.png'),
+              label: 'Home',
+              activeIcon: Image.asset('images/ico_home_selected.png'),
             ),
             BottomNavigationBarItem(
-                icon: Image.asset(_curIndex == 1 ? 'images/ico_history_selected.png' : 'images/ico_history.png'),
-              title: Text(
-                'History',
-                style: TextStyle(
-                    color: Colors.black
-                ),
-              ),
+              icon: Image.asset('images/ico_history.png'),
+              label: 'History',
+              activeIcon: Image.asset('images/ico_history_selected.png'),
             ),
             BottomNavigationBarItem(
-                icon: Image.asset(_curIndex == 2 ? 'images/ico_profile_selected.png' : 'images/ico_profile.png'),
-              title: Text(
-                'Profile',
-                style: TextStyle(
-                    color: Colors.black
-                ),
-              ),
+              icon: Image.asset('images/ico_profile.png'),
+              label: 'Profile',
+              activeIcon: Image.asset('images/ico_profile_selected.png'),
             ),
             BottomNavigationBarItem(
-                icon: Image.asset(_curIndex == 3 ? 'images/ico_settings_selected.png' : 'images/ico_settings.png'),
-              title: Text(
-                'Settings',
-                style: TextStyle(
-                    color: Colors.black
-                ),
-              ),
+              icon: Image.asset('images/ico_settings.png'),
+              label: 'Settings',
+              activeIcon: Image.asset('images/ico_settings_selected.png'),
             ),
-      ]),
+          ]),
       body: new Center(
         child: _getWidget(),
       ),
@@ -90,22 +74,18 @@ class _MyHomePageState extends State<MyHomePage> {
           color: Colors.red,
           child: HomePage(),
         );
-        break;
       case 1:
         return Container(
           child: HistoryPage(),
         );
-        break;
       case 2:
         return Container(
           child: ProfilePage(),
         );
-        break;
       default:
         return Container(
           child: SettingsPage(),
         );
-        break;
     }
   }
 }

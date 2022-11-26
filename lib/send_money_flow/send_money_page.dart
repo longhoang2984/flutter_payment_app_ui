@@ -34,7 +34,7 @@ class SendMoneyPageRoute extends PageRouteBuilder {
 class SendMoneyPage extends StatefulWidget {
   final ReceiverModel receiver;
 
-  SendMoneyPage({this.receiver});
+  SendMoneyPage({required this.receiver});
 
   @override
   SendMoneyPageState createState() => SendMoneyPageState();
@@ -47,7 +47,6 @@ class SendMoneyPageState extends State<SendMoneyPage> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
       backgroundColor: Color(0xFFF4F4F4),
       body: Center(
@@ -78,8 +77,6 @@ class SendMoneyPageState extends State<SendMoneyPage> {
                     return _getSection(index);
                   }),
             ),
-//            _getReceiverSection(this.widget.receiver),
-//            _getEnterAmountSection()
           ],
         ),
       ),
@@ -90,7 +87,6 @@ class SendMoneyPageState extends State<SendMoneyPage> {
     switch (index) {
       case 0:
         return _getReceiverSection(widget.receiver);
-        break;
       case 1:
         return _getEnterAmountSection();
       case 2:
@@ -283,9 +279,11 @@ class SendMoneyPageState extends State<SendMoneyPage> {
             activeColor: Color(0xFF65D5E3),
             value: index,
             groupValue: selectedCardIndex,
-            onChanged: (value) {
-              selectedCardIndex = value;
-              setState(() {});
+            onChanged: (int? value) {
+              if (value != null) {
+                selectedCardIndex = value;
+                setState(() {});
+              }
             },
           )
         ],
@@ -306,8 +304,7 @@ class SendMoneyPageState extends State<SendMoneyPage> {
           decoration: BoxDecoration(
               color: Color(0xFF65D5E3),
               borderRadius: BorderRadius.all(Radius.circular(11.0))),
-          padding:
-          EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
+          padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
           child: Text(
             'SEND',
             style: TextStyle(
